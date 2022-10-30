@@ -1,0 +1,358 @@
+body, html{
+    height: 100%;
+    margin: 0pix;
+}
+
+body{
+    background-color: black;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: #555555;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(100, 0, 0, 0.5),rgba(0,0,30,50.5)), url("../images/Enchanted\ Evening.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text a{
+    color: white;
+    text-decoration: none;
+}
+
+#programmer{
+    position:absolute;
+    left: 0;
+}
+
+#performer{
+    position:absolute;
+    right: 0;
+}
+#dancer{
+    position:absolute;
+    left: 20%;
+}
+#singer{
+    position:absolute;
+    right: 23%;
+}
+#creative{
+    position:absolute;
+    right: 10%;
+}
+
+#main{
+    height: 100%;
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(0,0,30,50.5),rgba(100, 0, 0, 0.5)), url("../images/Lonely\ Stage.jpg");
+    display: center;
+}
+
+.videos{
+    width: 100%;
+    height: 60vh;
+    margin-top: 0px;
+    display: center;
+    border-color: darkgray;
+    background-image: linear-gradient(rgba(0,0,30,50.5),rgba(0,0,0,50.5));
+}
+
+#right-side{
+    width: 14%;
+    height: 100%;;
+    padding: 0px;
+    position: absolute;
+    top: 475px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 82%;
+}
+
+#right-side img{
+    width: 75%;
+    border-radius: 5%;
+}
+
+
+#left-side{
+    width: 14%;
+    height: 100%;;
+    padding: 0px;
+    position: absolute;
+    top: 475px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#left-side img{
+    width: 75%;
+    border-radius: 5%;
+}
+
+#profile-image{
+    width: 150px;
+    border-radius: 45%;
+    border: 5px solid lightblue
+}
+#profile{
+    text-align: center
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: rgba(169, 169, 169, 0.214);
+    color:white;
+    text-align: center;
+}
+
+
+
+.top-articles a{
+    color: #f7f3f3;
+    text-decoration: none;
+}
+
+.mid-articles a{
+    color: #f7f3f3;
+    text-decoration: none;
+}
+
+.bottom-articles a{
+    color: #f7f3f3;
+    text-decoration: none;
+}
+
+.bottom-articles img{
+    height:250px;
+}
+
+#guitar img{
+    border-radius: 60%;
+}
+
+.dance-photos img{
+    margin-left: 40px;
+    height:20%;
+    width: 40%;
+    padding: 20px;
+    border: 5px;
+    color: whitesmoke;
+}
+
+.dark-captions{
+    color: white;
+}
+
+
+.top-articles{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    background-color: rgba(28, 28, 28, 0.488);
+    width: 400xp;
+    padding: 20px;
+    border: 5px;
+    text-align: center;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+.mid-articles{
+    color: white;
+    background-color:  rgba(28, 28, 28, 0.474);
+    width: 400xp;
+    padding: 20px;
+    border: 5px;
+    margin-top: 0px;
+    text-align: center;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+
+#main img{
+    height: 200px;
+    width: 400xp;
+    padding: 20px;
+    border: 5px;
+    
+}
+
+.bottom-articles{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    background-color:  rgba(28, 28, 28, 0.579);
+    width: 400xp;
+    padding: 20px;
+    border: 5px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.left-video-articles h1{
+    text-align: center;
+}
+.left-video-articles{
+    display: right;
+    width: 13%;
+    color: lightgray;
+    height: 60vh;
+    position: absolute;
+    top: 475px;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.right-video-articles h1{
+    text-align: center;
+}
+
+.right-video-articles{
+    float: right;
+    width: 15%;
+    color: lightgray;
+    background-image:linear-gradient(rgba(0,0,30,50.5),rgba(0,0,0,50.5));
+    height: 60vh;
+    position: absolute;
+    left:82%;
+    top: 475px;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    width: 80%;
+    background-color: rgba(211, 211, 211, 0.552);
+    color: rgb(246, 242, 242);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{ 
+    width: 100%;
+    height: 5vh;
+    margin-top: 0px;
+    background-image: linear-gradient(rgba(100, 0, 0, 0.5),rgba(0,0,30,50.5));
+}
+footer div{
+    text-align: center;
+    color: white;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 1px;
+    width: 98%;
+    background-color: white;
+    border-radius: 4px;
+    border: 0px;
+}
+#hr1{
+    margin-top: 0px;
+    height: 6px;
+    width: 90%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+#hr2{
+    margin-top: 0px;
+    height: 3px;
+    width: 50%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+#hr3{
+    margin-top: 0px;
+    height: 1px;
+    width: 25%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+main{
+    overflow: auto;
+}
